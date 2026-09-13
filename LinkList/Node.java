@@ -92,6 +92,7 @@ public class Node {
 
     //单链表删除
     public boolean delete(Node L, int i) {
+
         if (i < 1) {
             return false;
         }
