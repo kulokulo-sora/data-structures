@@ -40,6 +40,7 @@ public class CircleNode {
 
     //循环链表获得首元节点
     public CircleNode getFirstNode(CircleNode tail){
+        if(tail == null || tail.next == null ) return null;
         return tail.next.next;
     }
 }
