@@ -48,9 +48,9 @@ public class DoublyNode {
     public DoublyNode getElemDoubly(DoublyNode head, int k) {
         if (head == null || k < 1) return null;
 
-        DoublyNode p = head.next;
+        DoublyNode p = head.next;//从头结点之后开始
         int i = 1;
-        while (p != head && i < k) {
+        while (p != head && i < k) {//循环链表中 循环终止为p!=head
             p = p.next;
             i++;
         }
