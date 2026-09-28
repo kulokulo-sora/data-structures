@@ -3,8 +3,8 @@ package LinkList;
 import java.util.Scanner;
 
 public class Node {
-    int val;
-    Node next;
+    public int val;
+    public Node next;
 
     public Node() {
 
